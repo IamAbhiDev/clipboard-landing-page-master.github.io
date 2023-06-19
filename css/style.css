@@ -28,3 +28,11 @@
     --light: 400;
     --bold: 600;
 }
+
+/*Basic Styles*/
+
+body {
+    background-color: white;
+    font-family: 'Bai Jamjuree', sans-serif;
+    min-height: 100vh;
+}
