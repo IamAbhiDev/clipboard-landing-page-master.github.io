@@ -36,3 +36,231 @@ body {
     font-family: 'Bai Jamjuree', sans-serif;
     min-height: 100vh;
 }
+
+/*Components*/
+
+.header {
+    background: url(../images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    text-align: center;
+    padding: 7.8rem 1.9rem;
+    /* margin-top: .2rem; */
+}
+
+.container {
+    text-align: center;
+    /* width: 80%; */
+    margin: 0 auto;
+}
+
+.header__heading {
+    color: var(--dark-grayish-blue);
+    font-size: 1.96rem;
+    margin-top: 3.9rem;
+}
+
+.header__text {
+    color: var(--grayish-blue);
+    font-size: 1.02rem;
+    line-height: 1.6;
+    margin-top: 1rem;
+}
+
+.download__buttons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    gap: 1.6rem;
+}
+
+.download__btn {
+    color: white;
+    font-size: 1.125rem;
+    font-weight: var(--bold);
+    letter-spacing: .03rem;
+    text-decoration: none;
+    border-radius: 2rem;
+    padding: .94rem 0;
+}
+
+.download__btn--ios {
+    background: var(--strong-cyan);
+    box-shadow: -1px 3px 0 0 hsl(171deg 69% 34%), -1px 14px 20px hsl(171deg 66% 44% / 29%);
+}
+
+.download__btn--mac {
+    background: var(--light-blue);
+    box-shadow: -1px 2px 0 0 hsl(233, 81%, 55%), -1px 12px 20px hsl(233deg 81% 55% / 34%);
+}
+
+.snippets {
+    text-align: center;
+    padding: 2.4rem 1.9rem;
+}
+
+.snippets__heading {
+    color: var(--dark-grayish-blue);
+    font-size: 1.7rem;
+}
+
+.snippets__text {
+    color: var(--grayish-blue);
+    font-size: 1.02rem;
+    line-height: 1.6;
+    margin-top: 1rem;
+}
+
+.snippets__img {
+    width: 100%;
+    margin-top: 4rem;
+}
+
+.snippets__features {
+    margin-top: 3.2rem;
+}
+
+.snippets__features__feature:not(:first-child) {
+    margin-top: 3rem;
+}
+
+.snippets__features__feature__title {
+    color: var(--dark-grayish-blue);
+    font-size: 1.47rem;
+}
+
+.snippets__features__feature__text {
+    color: var(--grayish-blue);
+    font-size: 1.02rem;
+    line-height: 1.6;
+    margin-top: .6rem;
+}
+
+.accessibility {
+    text-align: center;
+    padding-top: 9.6rem;
+}
+
+.accessibility__heading {
+    color: var(--dark-grayish-blue);
+    font-size: 1.7rem;
+    margin: 0 1.5rem;
+}
+
+.accessibility__text {
+    color: var(--grayish-blue);
+    font-size: 1.02rem;
+    line-height: 1.6;
+    margin: 0 1.5rem;
+    margin-top: 1rem;
+}
+
+.accessibility__img {
+    width: 100%;
+    padding: 0 .9rem;
+    margin-top: 3.6rem;
+}
+
+.workflow {
+    text-align: center;
+    padding: 0 1.9rem;
+    padding-top: 5.9rem;
+}
+
+.workflow__heading {
+    color: var(--dark-grayish-blue);
+    font-size: 1.7rem;
+}
+
+.workflow__text {
+    color: var(--grayish-blue);
+    font-size: 1.02rem;
+    line-height: 1.6;
+    margin-top: .7rem;
+}
+
+.workflow__tools {
+    margin-top: 5.6rem;
+}
+
+.workflow__tools__tool:not(:first-child) {
+    margin-top: 3.35rem;
+}
+
+.workflow__tools__tool__heading {
+    color: var(--dark-grayish-blue);
+    font-size: 1.47rem;
+    margin-top: 2.46rem;
+}
+
+.workflow__tools__tool__text {
+    color: var(--grayish-blue);
+    font-size: 1.02rem;
+    line-height: 1.6;
+    margin-top: 1.2rem;
+}
+
+.workflow__companies {
+    margin-top: 8.45rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.workflow__companies__img {
+    width: 85%;
+}
+
+.workflow__companies__company:not(:first-child) {
+    margin-top: 3.65rem;
+}
+
+.download {
+    text-align: center;
+    padding: 0 2rem;
+    padding-top: 10.4rem;
+}
+
+.download__heading {
+    color: var(--dark-grayish-blue);
+    font-size: 1.7rem;
+}
+
+.download__text {
+    color: var(--grayish-blue);
+    font-size: 1.02rem;
+    line-height: 1.6;
+    margin-top: .9rem;
+}
+
+.footer {
+    background: hsla(201, 11%, 66%, 10%);
+    text-align: center;
+    padding: 3.2rem;
+    margin-top: 10.8rem;
+}
+
+.footer__logo {
+    width: 3.45rem;
+}
+
+.footer__links {
+    display: flex;
+    flex-direction: column;
+    margin: 1.1rem 0;
+}
+
+.footer__links__link {
+    color: var(--dark-grayish-blue);
+    font-size: 1.14rem;
+    text-decoration: none;
+    margin-top: 1.6rem;
+}
+
+.footer__social {
+    margin-top: 3.3rem;
+}
+
+.footer__social__icon {
+    margin: 0 1.1rem;
+}
