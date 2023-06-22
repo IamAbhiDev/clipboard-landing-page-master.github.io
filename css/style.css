@@ -286,7 +286,7 @@ body {
 }
 
 
-@media screen and (min-width: 75rem) {
+@media screen and (min-width: 81.25rem) {
     .header {
         padding: 7.9rem 16rem;
         margin-top: .2rem;
